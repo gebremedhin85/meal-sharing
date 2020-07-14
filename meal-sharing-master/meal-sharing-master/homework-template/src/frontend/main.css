@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css");
+* {
+	font-family: "Montserrat", sans-serif;
+	width: auto;
+}
+header{
+	background-color: rgb(150, 211, 211);
+	padding-left: 20px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin-bottom: 15px;
+}
+h1.homeHeader{
+	font-style: oblique;
+	font-weight: bold;
+	padding-bottom: 15px;
+	color: rgb(75, 78, 104);	
+}
+.mealsHeader{
+	font-style: italic;
+	font-weight: 700;
+}
+header.home {
+	background-color: rgb(150, 211, 211);
+	padding: 20px;
+	padding-bottom: 30px;
+}
+header.newMeal {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgb(150, 211, 211);
+}
+header.newMeal,
+main.newMeal {
+	margin-left: 20%;
+	margin-right: 20%;
+}
+header.meal, main.meal, footer.meal{
+	margin-right: 15%;
+	margin-left: 15%;
+	
+}
+div.insertNewMeal{
+	margin-bottom: 20px;
+}
+li {
+	list-style: none;
+	border: 0.5px solid rgb(166, 233, 146);
+	margin-right: 10%;
+}
+ul.home li {
+	padding-left: 40px;
+	line-height: 200%;
+	border: none;
+}
+ul.home :nth-child(1) {
+	padding-top: 40px;
+}
+a {
+	text-decoration: none;
+	padding-left: 30px;
+	text-decoration: 600 italic;
+}
+body {
+	background-color: rgb(221, 243, 248);
+}
+.home a {
+	padding: 10px 40px;
+	border-radius: 5px;
+	margin-left: 20px;
+	background-color: rgb(229, 231, 105);
+	text-decoration: none;
+}
+h2.home {
+	margin-left: 20px;
+}
+ul.home {
+	height: 1200px;
+	color: yellow;
+	background-image: url("/image/imge.png");
+}
+form div.reserveInput {
+	width: 35%;
+	display: flex;
+}
+input,
+textarea {
+	padding: 8px;
+	margin-bottom: 5px;
+	background-color: rgb(241, 234, 221);
+	border-radius: 4px;
+}
+button, .bookButton {
+	padding: 10px 40px;
+	border-radius: 5px;
+	background-color: yellowgreen;
+	font-size: 120%;
+	font-weight: 900;
+}
+footer {
+	background-color: blue;
+	color: cornsilk;
+	margin-top: 40px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+footer p {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

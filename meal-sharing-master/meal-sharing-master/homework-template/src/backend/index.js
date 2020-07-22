@@ -29,4 +29,5 @@ app.use("/api", router);
 app.get("/*", function (req, res) {
 	res.sendFile(path.join(__dirname, "./../frontend/index.html"));
 });
+
 app.listen(port, () => console.log(`Server listening on port ${port}!`));
